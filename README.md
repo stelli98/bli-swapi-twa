@@ -89,7 +89,7 @@
 7. After configuring association from app to FE_URL, we need to ensure FE_URL has connection to app, **so that URL bar from Google Chrome does not show on app**. Follow these steps:
 	- Go to `Build > Generate Signed Bundle/APK`
 	- Select create new `.jks` file, specify key store path and its name (usually `upload-keystore.jks`)
-	- Set password to `functiontwa`, key alias `function-twa`, key password `functionkeypass`, and fill the rest of the field as instructed by Android Studio
+	- Set password to `bli-swapi`, key alias `bli-swapi`, key password `bli-swapi`, and fill the rest of the field as instructed by Android Studio
 	- Open bash/cmd on the app's root folder in the project, and type the following:
 		```shell
 			keytool -list -v -keystore ./upload-keystore.jks -alias bli-swapi -storepass bli-swapi -keypass bli-swapi
