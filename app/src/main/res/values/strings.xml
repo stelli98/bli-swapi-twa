@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">bli-swapi</string>
+    <string name="asset_statements">
+        [{
+            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+            \"target\": {
+                \"namespace\": \"web\",
+                \"site\": \"https://garudahack.hanssagita.com\"}
+        }]
+    </string>
+</resources>

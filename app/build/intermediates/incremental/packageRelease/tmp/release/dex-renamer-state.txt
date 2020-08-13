@@ -1,0 +1,4 @@
+#Fri Aug 14 06:36:04 WIB 2020
+base.0=/Users/stelli/Desktop/PROJECTS/bliswapi/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
